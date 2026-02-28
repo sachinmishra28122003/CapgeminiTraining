@@ -1,0 +1,43 @@
+import java.util.*;
+public class Solution {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int arr[][] = {{1,2,3}, {4,5,6}};
+        int transpose[][] = new int[arr[0].length][arr.length];
+        for(int i = 0; i < arr.length; i++) {
+            for(int j = 0; j < arr[i].length; j++) {
+                transpose[j][i] = arr[i][j];
+            }
+        }
+        System.out.println("Originall matrix");
+        for(int i = 0 ;i < arr.length; i++) {
+            for(int j = 0; j < arr[i].length; j++) {
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
+        }
+        System.out.println("Transpose Matrix");
+        for(int i = 0 ; i < transpose.length; i++) {
+            for(int j = 0 ; j < transpose[i].length; j++) {
+                System.out.print (transpose[i][j]+" ");
+            }System.out.println();
+        }
+    }
+}
+
+// int arr[][] = {{1,2,3},{4,5,6},{7,8,9}};
+//         int arr2[][] = {{1,2,3},{4,5,6},{7,8,9}};
+//         int result[][] = new int[arr.length][arr.length];
+//         if(arr.length != arr2.length || arr[0].length != arr2[0].length) {
+//             System.out.println("We can not add Matrix since size is not same");
+//             return;
+//         }
+//         System.out.println("Addition Matrix is  : ");
+
+//         for(int i = 0; i  < result.length; i++) {
+//             for(int j = 0; j < result[i].length; j++) {
+//                 result[i][j] = arr[i][j] + arr2[i][j];
+//                 System.out.print(result[i][j] + " ");
+//             }
+//             System.out.println();
+//         }
