@@ -2,6 +2,10 @@
 
 This repository contains my Capgemini training projects organized by technology.
 
+##  Every Project of different topics is in different branches of this Repository
+## Below are the given links for Each Topic
+
+
 ##  Branch Navigation
 
 -  HYBERNATE Projects  
