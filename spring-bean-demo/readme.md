@@ -1,4 +1,4 @@
-# SpringBoot Beans(Making)
+# Spring Beans(Making)
 
 ## First Method to make beans using component annotations
 
